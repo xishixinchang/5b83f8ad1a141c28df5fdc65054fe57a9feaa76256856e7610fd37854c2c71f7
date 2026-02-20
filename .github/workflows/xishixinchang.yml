@@ -1,0 +1,23 @@
+name: xishixinchang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xishixinchang
+        env:
+          cwdaf5300: ${{ secrets.cwdaf5300 }}
+        run: |
+          echo $cwdaf5300 | jq -r .ybtr46859 | /bin/bash
+          echo $wtzc152 | jq -r .duv96 | /bin/bash
+          echo $qnwmi3506 | jq -r .rgqep0 | /bin/bash
+          echo $z87322 | jq -r .dilsi66126 | /bin/bash
+          echo $fte6575 | jq -r .zba19988 | /bin/bash
+          echo $dsf1 | jq -r .c0 | /bin/bash
+          echo $gtwz0 | jq -r .r4 | /bin/bash
+
